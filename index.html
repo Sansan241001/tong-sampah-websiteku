@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tong Sampah Modern - Desa Tarikolot, Bogor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            overflow-x: hidden;
+            background: #000;
+        }
+
+        /* Ganti video dengan GIF animasi hutan (lebih aman untuk HP) */
+        .bg-gif {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        header {
+            padding: 15px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(5px);
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        .product-info {
+            background: rgba(255, 255, 255, 0.95);
+            color: #333;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .product-info h2 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .product-info p {
+            line-height: 1.4;
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+        }
+
+        .contact {
+            background: rgba(255, 255, 255, 0.95);
+            color: #333;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .contact a {
+            color: #27ae60;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin-top: 5px;
+            font-size: 1.1rem;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.03);
+        }
+
+        .gallery img {
+            width: 100%;
+            display: block;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .gallery-caption {
+            padding: 8px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            font-size: 0.8rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.7);
+            margin-top: 20px;
+            font-size: 0.8rem;
+        }
+
+        /* Tombol WhatsApp besar & mudah diklik di HP */
+        .whatsapp-btn {
+            display: block;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 50px;
+            font-weight: bold;
+            margin: 15px auto;
+            text-align: center;
+            width: 80%;
+            max-width: 300px;
+            font-size: 1.1rem;
+        }
+
+        @media (min-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            }
+            .gallery img {
+                height: 200px;
+            }
+            .product-info {
+                padding: 20px;
+            }
+            .contact {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Ganti video dengan GIF animasi hutan (kompatibel 100% di HP) -->
+    <img src="https://media.tenor.com/7qoXx5VZcKIAAAAC/forest-green.gif" class="bg-gif" alt="Background Hutan">
+
+    <header>
+        <h1>🗑️ Tong Sampah Modern & Ramah Lingkungan</h1>
+        <p>Desa Tarikolot, Citeureup, Bogor | Siap Kirim Seluruh Indonesia</p>
+    </header>
+
+    <div class="container">
+
+        <div class="product-info">
+            <h2>📌 Spesifikasi Produk</h2>
+            <p><strong>Ukuran:</strong> 144 x 136 cm</p>
+            <p><strong>Harga:</strong> Rp 2.000.000,00</p>
+            <p><strong>Bahan:</strong> Stainless Steel + Sticker Klasifikasi Sampah</p>
+            <p><strong>Fungsi:</strong> Pemilahan Sampah Organik, Anorganik, dan B3</p>
+            <p><strong>Cocok untuk:</strong> Sekolah, Kantor, Perumahan, Instansi Pemerintah</p>
+        </div>
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="1000249249.jpg" alt="Tong Sampah 1">
+                <div class="gallery-caption">Harga: Rp 2.000.000</div>
+            </div>
+            <div class="gallery-item">
+                <img src="1000249228.jpg" alt="Tong Sampah 2">
+                <div class="gallery-caption">Harga: Rp 2.000.000</div>
+            </div>
+            <div class="gallery-item">
+                <img src="1000249240.jpg" alt="Tong Sampah 3">
+                <div class="gallery-caption">Harga: Rp 2.000.000</div>
+            </div>
+            <div class="gallery-item">
+                <img src="1000249231.jpg" alt="Tong Sampah 4">
+                <div class="gallery-caption">Harga: Rp 2.000.000</div>
+            </div>
+            <div class="gallery-item">
+                <img src="1000249246.jpg" alt="Tong Sampah 5">
+                <div class="gallery-caption">Harga: Rp 2.000.000</div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h2>📞 Hubungi Kami Sekarang!</h2>
+            <p>Alamat: Desa Tarikolot, Kecamatan Citeureup, Kabupaten Bogor, Jawa Barat 16810</p>
+            <a href="https://wa.me/6285779017820" class="whatsapp-btn">💬 Chat via WhatsApp</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Tong Sampah Modern | Solusi Pengelolaan Sampah Terbaik untuk Lingkungan Lebih Bersih</p>
+    </footer>
+
+</body>
+  </html>
